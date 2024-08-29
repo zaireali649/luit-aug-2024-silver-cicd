@@ -3,6 +3,5 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo Building the project...
-      # Add your simple build commands here, e.g., compiling, packaging, etc.
-      - echo Build completed.
+      - echo Running aws s3 cp command...
+      - aws s3 cp index.html s3://luit-aug-2024-silver-cicd-beta --acl public-read

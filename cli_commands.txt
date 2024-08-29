@@ -1,0 +1,1 @@
+aws s3 cp index.html s3://luit-aug-2024-silver-cicd-beta --acl public-read
